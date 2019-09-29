@@ -4,36 +4,37 @@
 
 All these snippets are also included in the [free Roboquery chrome extension](https://chrome.google.com/webstore/search/roboquery)
 
--Create Table
--Create View
--Create table as select
--Drop Table
--Drop View
--Create CTE
--Derived Table
--Select Distinct
--Select using Timetravel
--Group By
--Group by Having
--Order By
--Insert into Table
--Insert values into Table
--Update Table
--Update From
--Merge
--Delete
--Inner Join
--Left Join
--Parse Date
--Date Add
--Date Sub
--Date Diff
--Extract from Date
--Cast to Integer
--Cast to String
--Cast to Numeric
--Rank Over
--Row_Number
--Rows Between
+- Create Table
+- Create View
+- Create table as select
+- Drop Table
+- Drop View
+- Create CTE
+- Derived Table
+- Select Distinct
+- Select using Timetravel
+- Group By
+- Group by Having
+- Order By
+- Insert into Table
+- Insert values into Table
+- Update Table
+- Update From
+- Merge
+- Delete
+- Inner Join
+- Left Join
+- Parse Date
+- Date Add
+- Date Sub
+- Date Diff
+- Extract from Date
+- Cast to Integer
+- Cast to String
+- Cast to Numeric
+- Rank Over
+- Row_Number
+- Rows Between
 
-This free cheat sheet is brought to you by [Roboquery](https://roboquery.com). Roboquery helps you convert your table DDL, views, SQL scripts to Google Bigquery. ## [Install the free chrome extension now](https://chrome.google.com/webstore/search/roboquery)
+This free cheat sheet is brought to you by [Roboquery](https://roboquery.com). Roboquery helps you convert your table DDL, views, SQL scripts to Google Bigquery. 
+## [Install the free chrome extension now](https://chrome.google.com/webstore/search/roboquery)
