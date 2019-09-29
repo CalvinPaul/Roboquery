@@ -1,6 +1,6 @@
 # Become a Google Bigquery Expert. Free PDF Cheatsheet with 30+ Bigquery SQL snippets
 
-[Download the free pdf with Bigquery code snippets](https://github.com/CalvinPaul/Roboquery/blob/master/pages/Google_Bigquery_Expert_Cheatsheet.pdf?raw=true)
+## [Download the free pdf with Bigquery code snippets](https://github.com/CalvinPaul/Roboquery/blob/master/pages/Google_Bigquery_Expert_Cheatsheet.pdf?raw=true)
 
 All these snippets are also included in the free Roboquery chrome extension 
 
