@@ -27,3 +27,7 @@ Roboquery can,
 - [Convert Table DDLs from Teradata to Snowflake](https://roboquery.com)
 - [Convert View DDLs from Teradata to Snowflake](https://roboquery.com)
 - [Convert SQL Queries from Teradata to Snowflake](https://roboquery.com)
+
+More links:
+
+- [Download the Bigquery SQL cheatsheet](https://github.com/CalvinPaul/Roboquery/blob/master/Google-Bigquery-Cheatsheet.md)
