@@ -37,4 +37,7 @@ All these snippets are also included in the [free Roboquery chrome extension](ht
 - Rows Between
 
 This free cheat sheet is brought to you by [Roboquery](https://roboquery.com). Roboquery helps you convert your table DDL, views, SQL scripts to Google Bigquery. 
+
+![Roboquery Logo](/pages/Chrome-Promo.jpeg)
+
 ## [Install the free chrome extension now](https://chrome.google.com/webstore/search/roboquery)
