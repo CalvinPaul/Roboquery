@@ -1,11 +1,11 @@
-#Become a Google Bigquery Expert. Free PDF Cheatsheet with 30+ Bigquery SQL snippets
+# Become a Google Bigquery Expert. Free PDF Cheatsheet with 30+ Bigquery SQL snippets
 
 [Download the free pdf with Bigquery code snippets](https://github.com/CalvinPaul/Roboquery/blob/master/pages/Google_Bigquery_Expert_Cheatsheet.pdf?raw=true)
 
 All these snippets are also included in the free Roboquery chrome extension 
 
 
-##Create Table:
+## Create Table:
 ```sql
 CREATE TABLE Dataset.TableName
 (
@@ -18,8 +18,8 @@ PARTITION BY DOB
 CLUSTER BY EmployeeNo;
 ```
 
-Create View:
-
+## Create View:
+```sql
 CREATE OR REPLACE VIEW Dataset.ViewName AS
 SELECT 
       EmployeeNo,
@@ -29,75 +29,77 @@ SELECT
       JoinedDate,
       DepartmentNo
 FROM Dataset.TableName;
+```
 
+## Create table as select:
 
-
-
-Create table as select:
-
+```sql
 CREATE TABLE mydataset.mynewtable
  AS 
  SELECT * FROM mydataset.myothertable;
+```
 
-
-Drop Table:
+## Drop Table:
+```sql
 DROP TABLE Dataset.Tablename;
+```
 
-Drop View:
+## Drop View:
+```sql
 DROP VIEW Dataset.Viewname;
+```
 
-Create CTE:
-
+## Create CTE:
+```sql
 WITH subQ1 AS (SELECT SchoolID FROM Roster),
 subQ2 AS (SELECT OpponentID FROM PlayerStats)
 SELECT * FROM subQ1
 UNION ALL
 SELECT * FROM subQ2;
+```
 
 
-
-Derived Table:
-
+## Derived Table:
+```sql
 SELECT r.LastName FROM
 ( SELECT * FROM Roster) AS r;
+```
 
-
-Select Distinct:
-
+## Select Distinct:
+```sql
 SELECT DISTINCT * FROM DatasetName.MyTable;
+```
 
-
-Select using Timetravel:
-
+## Select using Timetravel:
+```sql
 SELECT * FROM Dataset.Table
 FOR SYSTEM_TIME AS OF '2019-01-01 10:00:00-07:00';
+```
 
-
-Group By:
-
+## Group By:
+```sql
 SELECT LastName, SUM(PointsScored) as pts
 FROM PlayerStats
 GROUP BY LastName;
+```
 
-
-
-
-
-Group by Having:
-
+## Group by Having:
+```sql
 SELECT LastName, SUM(PointsScored) AS ps
 FROM Roster
 GROUP BY LastName
 HAVING ps > 0;
+```
 
-Order By:
-
+## Order By:
+```sql
 SELECT LastName, PointsScored, OpponentID
 FROM PlayerStats
 ORDER BY SchoolID, LastName desc;
+```
 
-
-Insert into Table:
+## Insert into Table:
+```sql
 INSERT into dataset.Inventory_New 
 (
   product, 
@@ -105,8 +107,9 @@ INSERT into dataset.Inventory_New
   supply_constrained
 )
 SELECT * FROM dataset.Inventory;
+```
 
-Insert values into Table:
+## Insert values into Table:
 
 INSERT into dataset.Inventory (product, quantity)
 VALUES('top load washer', 10),
