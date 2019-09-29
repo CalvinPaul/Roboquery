@@ -2,6 +2,8 @@
 
 Migrate your SQL queries, tables, views from Teradata to Google Bigquery / Snowflake
 
+[![Roboquery Logo](/pages/Chrome-Promo.jpeg)](https://roboquery.com)
+
 With [Roboquery](https://roboquery.com), 
 
 1. You can easily convert all your database objects, DDLs and SQL queries from one data warehouse platform to another (Teradata, Snowflake, Google BigQuery)
